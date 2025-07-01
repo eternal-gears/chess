@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chess-game</title>
+    <!-- <link rel="stylesheet" href="/static/css/base.css"> -->
+    <script src="https://cdn.acwing.com/static/jquery/js/jquery-3.3.1.min.js"></script>
+    <style>
+        #player-info {
+            position: fixed;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-family: Arial, sans-serif;
+        }
+        body{
+            background-image: url(../static/images/ce4eZDUPz99gs.jpg);
+        }
+    </style>
+</head>
+<body>
+    <div id="player-info"></div>
+    <div id="chess-game">
+    </div>
+    <script type="module">
+        import {Chess} from '/static/js/base.js';
+        let chess=new Chess('chess-game');
+    </script>
+</body>
+</html>
