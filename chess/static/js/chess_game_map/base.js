@@ -1,4 +1,4 @@
-import { ChessGameObject } from "../chess_game_object/base.js";
+import { ChessGameObject } from "/chess/static/js/chess_game_object/base.js";
 
 export class GameMap extends ChessGameObject {
     constructor(root) {

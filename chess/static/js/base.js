@@ -1,4 +1,4 @@
-import { GameMap } from "./chess_game_map/base.js";
+import { GameMap } from "/chess/static/js/chess_game_map/base.js";
 
 
 class Chess {
